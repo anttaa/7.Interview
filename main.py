@@ -13,7 +13,7 @@ class Stack:
         return self.list.pop()
 
     def peek(self):
-        return self.list[len(self.list) - 1]
+        return self.list[-1]
 
     def size(self):
         return len(self.list)
